@@ -1,4 +1,4 @@
-loadData <- function(baseDir)
+loadData <- function(baseDir=".")
 {
   library(plyr)
   ## load all datasets, merges it into one dataset which will be returned
